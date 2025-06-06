@@ -9,7 +9,7 @@
   min-height: 300px;
 }
 
-.hero h1 {
+/* .hero h1 {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -28,7 +28,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-}
+} */
 
 @media (width >= 900px) {
   .hero {
