@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import {
   buildBlock,
   loadHeader,
@@ -22,14 +23,14 @@ function buildHeroBlock(main) {
   // const picture = main.querySelector('picture');
   // // eslint-disable-next-line no-bitwise
   // if (h1 && picture && (h1.compareDocumentPosition(picture) & Node.DOCUMENT_POSITION_PRECEDING)) {
-    const section = document.createElement('div');
-
-    // Create the carousel block (assuming it doesn't need dynamic content here)
-    const carouselBlock = buildBlock('carousel');
-    section.append(
-      // buildBlock('hero', { elems: [picture, h1] }), 
-      carouselBlock);
-    main.prepend(section);
+  const section = document.createElement('div');
+  // Create the carousel block (assuming it doesn't need dynamic content here)
+  const carouselBlock = buildBlock('carousel');
+  section.append(
+    // buildBlock('hero', { elems: [picture, h1] }),
+    carouselBlock,
+  );
+  main.prepend(section);
   // }
 }
 

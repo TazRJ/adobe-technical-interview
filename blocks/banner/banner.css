@@ -1,6 +1,6 @@
 /* Banner Block Styles */
 .banner {
-  background-color: rgb(41, 41, 41);
+  background-color: rgb(41 41 41);
   margin: 0 16px;
   display: flex;
   text-align: left;
@@ -15,7 +15,7 @@
 
 .banner-heading p,
 .banner-description p {
-  color: #ffffff;
+  color: #fff;
   margin: 12px;
   text-align: left;
 }
