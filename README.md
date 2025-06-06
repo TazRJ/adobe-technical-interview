@@ -1,9 +1,9 @@
-# Your Project's Title...
+# Adobe Technical Interview
 Your project's description...
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+- Preview: https://main--adobe-technical-interview--tazrj.aem.page/
+- Live: https://main--adobe-technical-interview--tazrj.aem.live/
 
 ## Documentation
 
